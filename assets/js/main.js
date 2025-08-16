@@ -30,6 +30,9 @@
   /*--------------------------------------------------------------
     Scripts initialization
   --------------------------------------------------------------*/
+  import { SpeedInsights } from "@vercel/speed-insights/next"
+  reactdom.render (<SpeedInsights/>);
+
   $.exists = function (selector) {
     return $(selector).length > 0;
   };
